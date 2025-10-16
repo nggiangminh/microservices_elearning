@@ -29,35 +29,4 @@ Thumbs.db
 # Environment
 .env
 
-# Others
-node_modules/
 
-# Ignore build output for all modules
-**/target/
-**/out/
-
-# Ignore local configuration
-*.local
-
-# Ignore backup files
-*~
-*.swp
-*.swo
-
-# Ignore coverage reports
-coverage/
-**/coverage/
-
-# Ignore test reports
-**/test-output/
-**/surefire-reports/
-**/failsafe-reports/
-
-# Ignore generated files
-**/generated/
-.idea/
-.vscode/
-*.iml
-*.iws
-*.ipr
-out/
