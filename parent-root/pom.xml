@@ -27,6 +27,17 @@
         <avro.version>1.11.3</avro.version>
     </properties>
 
+    <modules>
+        <module>../common-lib</module>
+        <module>../api-gateway</module>
+        <module>../auth-service</module>
+        <module>../user-service</module>
+        <module>../course-service</module>
+        <module>../enrollment-service</module>
+        <module>../progress-service</module>
+        <module>../storage-service</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <!-- Spring Cloud BOM -->
